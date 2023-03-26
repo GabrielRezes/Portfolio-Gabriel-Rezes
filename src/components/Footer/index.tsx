@@ -1,4 +1,4 @@
-import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/Ai';
+import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
 import { Container } from './styles';
 
 function Footer() {
