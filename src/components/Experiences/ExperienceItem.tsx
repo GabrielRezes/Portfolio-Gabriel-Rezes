@@ -14,7 +14,7 @@ function ExperienceItem({
   description
 }: ExperienceProps) {
   return (
-    <ItemContainer>
+    <ItemContainer data-aos="fade-up">
       <div>
         <h1>
           {year} <span className="duration">{duration}</span>

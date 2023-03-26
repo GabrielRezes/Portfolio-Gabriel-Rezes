@@ -10,7 +10,7 @@ import picture from '../../assets/01-no-background.png';
 
 function HomeHero() {
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <Image>
         <img src={picture} alt="Minha foto" />
       </Image>
@@ -22,7 +22,7 @@ function HomeHero() {
         </TextContainer>
 
         <InfosContainer>
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="comment">//Minha apresentação</span>
             <span className="purple">Pessoal</span> {'\u007B'}
             <div>
@@ -34,7 +34,7 @@ function HomeHero() {
             {'\u007B'}
           </CodeItem>
 
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="purple">Profissional</span> {'\u007B'}
             <div>
               Função: <span className="blue">Dev Front-End,</span>

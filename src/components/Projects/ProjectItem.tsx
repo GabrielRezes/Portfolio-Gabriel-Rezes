@@ -11,7 +11,7 @@ export interface ProjectItemProps {
 
 function ProjectItem({ imgUrl, title, type, slug }: ProjectItemProps) {
   return (
-    <ProjectContainer imgUrl={imgUrl}>
+    <ProjectContainer imgUrl={imgUrl} data-aos="fade-up">
       <section>
         <div className="overlay" />
         <div className="text">
@@ -21,7 +21,7 @@ function ProjectItem({ imgUrl, title, type, slug }: ProjectItemProps) {
       </section>
 
       <button type="button">
-        <Link href={`projetos/${slug}`}>
+        <Link href={`/projetos/${slug}`}>
           <a>
             Ver mais <AiOutlineRightCircle />
           </a>
