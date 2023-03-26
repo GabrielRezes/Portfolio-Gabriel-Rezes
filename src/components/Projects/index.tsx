@@ -11,7 +11,7 @@ function Projects() {
 
       <section>
         {PROJECTS.map(project => (
-          <ProjectItem {...project} />
+          <ProjectItem key={project.title} {...project} />
         ))}
       </section>
 

@@ -10,7 +10,7 @@ function Experiences() {
 
       <section>
         {EXPERIENCE_JOBS.map(job => (
-          <ExperienceItem {...job} />
+          <ExperienceItem key={job.title} {...job} />
         ))}
       </section>
     </Container>
