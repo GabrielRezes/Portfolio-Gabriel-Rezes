@@ -13,7 +13,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-# <strong>About the project</strong>
+# <strong>Sobre o projeto</strong>
 
 Este projeto foi criado utilizando Next Js, Typescript, ESlint, Prettier e Styled-Components
 
@@ -22,7 +22,7 @@ Este projeto foi criado utilizando Next Js, Typescript, ESlint, Prettier e Style
 <!-- CONTACT -->
 </br>
 
-# **Contact**
+# **Contato**
 
 ### Gabriel Rezes - **gabriel.rezes@gmail.com**
 
