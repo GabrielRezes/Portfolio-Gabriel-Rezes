@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { AiOutlineRightCircle } from 'react-icons/Ai';
+import { AiOutlineRightCircle } from 'react-icons/ai';
 import { ProjectContainer } from './styles';
 
 export interface ProjectItemProps {
