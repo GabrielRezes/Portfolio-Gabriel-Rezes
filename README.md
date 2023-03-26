@@ -7,7 +7,7 @@
 <!--LOGO-->
 <br/>
 <div align="center">
-    <h1 color="#ffff" >Initial project config with Next Js, Typescript, ESlint, Prettier and Styled-Components</h1>
+    <h1 color="#ffff" >Seja Bem vindo ao meu Portifólio!</h1>
     </br>
 </div>
 
@@ -15,9 +15,7 @@
 
 # <strong>About the project</strong>
 
-This is a template for initial configuration for projects based in Next Js.
-
-Use and abuse!
+Este projeto foi criado utilizando Next Js, Typescript, ESlint, Prettier e Styled-Components
 
 </br>
 
@@ -28,6 +26,7 @@ Use and abuse!
 
 ### Gabriel Rezes - **gabriel.rezes@gmail.com**
 
+[Website](https://gabrielrezes.com.br) - **https://gabrielrezes.com.br** </br>
 [Github](https://github.com/renanlido) - **https://github.com/GabrielRezes** </br>
 [Linkedin](https://www.linkedin.com/in/renanlido/) - **https://www.linkedin.com/in/gabrielrezes/**
 
