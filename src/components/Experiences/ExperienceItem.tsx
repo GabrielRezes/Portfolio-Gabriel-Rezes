@@ -2,7 +2,7 @@ import { ItemContainer } from './styles';
 
 export interface ExperienceProps {
   year: string;
-  duration: string;
+  duration?: string;
   title: string;
   description: string;
 }
@@ -17,7 +17,7 @@ function ExperienceItem({
     <ItemContainer data-aos="fade-up">
       <div>
         <h1>
-          {year} <span className="duration">{duration}</span>
+          {year} {duration && <span className="duration">{duration}</span>}
         </h1>
         <h2>{title}</h2>
         <p>{description}</p>

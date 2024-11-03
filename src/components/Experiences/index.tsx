@@ -6,7 +6,7 @@ import { Container } from './styles';
 function Experiences() {
   return (
     <Container>
-      <SectionTitle title="02 Anos" description="de experiência" />
+      <SectionTitle title="04 Anos" description="de experiência" />
 
       <section>
         {EXPERIENCE_JOBS.map(job => (
