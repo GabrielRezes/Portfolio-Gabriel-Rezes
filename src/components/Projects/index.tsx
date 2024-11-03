@@ -7,7 +7,7 @@ import { Container } from './styles';
 function Projects() {
   return (
     <Container>
-      <SectionTitle title="Últimos projetos" />
+      <SectionTitle title="Projetos profissionais" />
 
       <section>
         {PROJECTS.map(project => (
