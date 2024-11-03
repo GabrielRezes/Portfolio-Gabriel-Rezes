@@ -13,11 +13,18 @@ function FormContact() {
             meus serviços?
           </>
         }
+        // description={
+        //   <>
+        //     Preencha o formulário abaixo que
+        //     <br />
+        //     irei retornar em breve!
+        //   </>
+        // }
         description={
           <>
-            Preencha o formulário abaixo que
+            Entre em contato commigo
             <br />
-            irei retornar em breve!
+            pelo WhatsApp
           </>
         }
       />
