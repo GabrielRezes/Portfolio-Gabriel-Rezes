@@ -11,6 +11,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 5rem;
+  padding-bottom: 8rem;
+  border-bottom: 3px solid ${({ theme }) => theme.primary};
 
   > section {
     width: 100%;
@@ -96,7 +98,7 @@ export const ProjectContainer = styled.div<ProjectProps>`
     width: 50rem;
     height: 100%;
     background: url(${props => props.imgUrl}) no-repeat center;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 
     > div.overlay {

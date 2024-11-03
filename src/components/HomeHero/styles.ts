@@ -35,6 +35,7 @@ export const Image = styled.div`
   border-radius: 50%;
   border: 4px solid ${({ theme }) => theme.primary};
   overflow: hidden;
+  scale: 0.7;
 
   > img {
     width: 40rem;

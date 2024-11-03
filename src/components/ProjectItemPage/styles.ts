@@ -5,12 +5,13 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
+  margin-inline: 10px;
   > a {
     position: relative;
     width: 100%;
     height: 10rem;
     background: url(${props => props.imgUrl}) no-repeat center;
-    background-size: cover;
+    background-size: contain;
     padding: 1.5rem;
     display: flex;
     align-items: flex-end;

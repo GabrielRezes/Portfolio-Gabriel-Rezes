@@ -23,7 +23,7 @@ function HomeHero() {
 
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">//Minha apresentação</span>
+            {/* <span className="comment">//Minha apresentação</span> */}
             <span className="purple">Pessoal</span> {'\u007B'}
             <div>
               Nome: <span className="blue">Gabriel,</span>
@@ -35,12 +35,13 @@ function HomeHero() {
           </CodeItem>
 
           <CodeItem data-aos="zoom-in">
+            {/* <span className="comment">//Expertise</span> */}
             <span className="purple">Profissional</span> {'\u007B'}
             <div>
               Função: <span className="blue">Dev Front-End,</span>
             </div>
             <div>
-              Stack: <span className="blue">Next, React, React Native</span>
+              Stack: <span className="blue">Next, React, Angular</span>
             </div>
             {'\u007B'}
           </CodeItem>
