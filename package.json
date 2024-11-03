@@ -1,10 +1,10 @@
 {
-  "name": "template-initial-config-next-ts-eslint-prettier",
+  "name": "portifolio-pessoal",
   "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {

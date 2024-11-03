@@ -8,8 +8,15 @@ function Projects() {
   const router = useRouter();
   const { slug } = router.query;
 
+  if (!slug) {
+    return <div>Carregando...</div>;
+  }
+
   const project = PROJECTS.find(project => project.slug === slug);
 
+  if (!project) {
+    return <div>Projeto não encontrado.</div>;
+  }
   console.log(slug);
   return (
     <ProjectContainer>
