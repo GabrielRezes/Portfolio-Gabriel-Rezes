@@ -1,27 +1,38 @@
+import { useRouter } from 'next/router';
 import BannerProject from '../../../components/BannerProject';
 import Header from '../../../components/Header';
 import { ProjectContainer } from '../../../styles/pages/ProjectStyles';
+import { PROJECTS } from '../../../components/Projects/constants';
 
 function Projects() {
+  const router = useRouter();
+  const { slug } = router.query;
+
+  const project = PROJECTS.find(project => project.slug === slug);
+
+  console.log(slug);
   return (
     <ProjectContainer>
       <Header />
       <BannerProject
-        title="Projeto 1"
-        type="Website"
-        imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd_aOGVvsV8lBrC9PUWCpHrvKAdjatx1yS0A&usqp=CAU"
+        title={project.title}
+        type={project.type}
+        imgUrl={project.imgUrl}
       />
 
       <main>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ut.
-          Voluptas debitis, saepe veniam deserunt reprehenderit, possimus nihil
-          vitae itaque amet dolore et sapiente expedita, repellendus tempore
-          quos in eaque?
+          <h3>Descrição:</h3> <p>{project.details.description}</p>
+          <br />
+          <br />
+          <h3>Tecnologias utilizadas:</h3>
+          <p>{project.details.techs}</p>
         </p>
 
         <button type="button">
-          <a href="#">Ver projeto online</a>
+          <a href={project.url} target="_blank">
+            Ver projeto online
+          </a>
         </button>
       </main>
     </ProjectContainer>

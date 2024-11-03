@@ -11,6 +11,8 @@ import HomeHero from '../components/HomeHero';
 import Projects from '../components/Projects';
 
 import { HomeContainer } from '../styles/pages/HomeStyles';
+import Expertise from '../components/Expertise';
+import Certifications from '../components/Certifications';
 
 export default function Home() {
   useEffect(() => {
@@ -40,7 +42,9 @@ export default function Home() {
       <main className="container">
         <HomeHero />
         <Experiences />
+        <Expertise />
         <Projects />
+        <Certifications />
         <FormContact />
       </main>
 

@@ -15,9 +15,13 @@ export const ProjectContainer = styled.div`
 
     p {
       color: ${({ theme }) => theme.textLight};
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: 300;
       text-align: justify;
+    }
+
+    h3 {
+      color: ${({ theme }) => theme.secondary};
     }
 
     button {
